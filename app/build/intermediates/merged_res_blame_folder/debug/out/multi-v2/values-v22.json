@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\2022 all  project\\Tunament App\\app\\app-sourcecode\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "G:\\2022 all  project\\Tunament App\\app\\app-sourcecode\\caches\\transforms-2\\files-2.1\\12dc44fd1f763dbebc39eda51959ecfa\\jetified-payu-custom-browser-7.8.0\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endLines": "2,5",
+                        "endColumns": "92,12",
+                        "endOffsets": "143,310"
+                    },
+                    "to": {
+                        "startLines": "14,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "901,994",
+                        "endLines": "14,17",
+                        "endColumns": "92,12",
+                        "endOffsets": "989,1156"
+                    }
+                },
+                {
+                    "source": "G:\\2022 all  project\\Tunament App\\app\\app-sourcecode\\caches\\transforms-2\\files-2.1\\bd2043e8ff523c8476b15752de98cc18\\appcompat-1.3.0\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        }
+    ]
+}

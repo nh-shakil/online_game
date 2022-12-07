@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">936321671626-jh8gg62nqahpe2a376ppvktuv8a27ejt.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">936321671626</string>
+    <string name="google_api_key" translatable="false">AIzaSyA0sq3gXKgQKluXtMM6Jv9fAnutyG3PrPc</string>
+    <string name="google_app_id" translatable="false">1:936321671626:android:8fdd67bdc6a63989c7ef33</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0sq3gXKgQKluXtMM6Jv9fAnutyG3PrPc</string>
+    <string name="google_storage_bucket" translatable="false">battle-mania-v5-81879.appspot.com</string>
+    <string name="project_id" translatable="false">battle-mania-v5-81879</string>
+</resources>

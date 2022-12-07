@@ -1,0 +1,1683 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.di.battlemaniaV5"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+11-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:6:5-83
+11-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:6:22-80
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:7:5-67
+12-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:8:5-79
+13-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:9:5-76
+14-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:10:5-81
+15-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:11:5-80
+16-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:11:22-77
+17
+18    <queries>
+18-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:14:5-59:15
+19        <package android:name="in.amazon.mShop.android.shopping" />
+19-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:15:9-68
+19-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:15:18-65
+20        <package android:name="com.upi.axispay" />
+20-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:16:9-51
+20-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:16:18-48
+21        <package android:name="com.axis.mobile" />
+21-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:17:9-51
+21-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:17:18-48
+22        <package android:name="com.fisglobal.bandhanupi.app" />
+22-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:18:9-64
+22-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:18:18-61
+23        <package android:name="com.bankofbaroda.upi" />
+23-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:19:9-56
+23-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:19:18-53
+24        <package android:name="in.org.npci.upiapp" />
+24-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:20:9-54
+24-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:20:18-51
+25        <package android:name="com.canarabank.mobility" />
+25-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:21:9-59
+25-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:21:18-56
+26        <package android:name="com.citiuat" />
+26-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:22:9-47
+26-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:22:18-44
+27        <package android:name="com.dbs.in.digitalbank" />
+27-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:23:9-58
+27-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:23:18-55
+28        <package android:name="com.olive.dcb.upi" />
+28-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:24:9-53
+28-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:24:18-50
+29        <package android:name="com.finopaytech.bpayfino" />
+29-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:25:9-60
+29-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:25:18-57
+30        <package android:name="com.freecharge.android" />
+30-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:26:9-58
+30-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:26:18-55
+31        <package android:name="com.google.android.apps.nbu.paisa.user" />
+31-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:27:9-74
+31-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:27:18-71
+32        <package android:name="com.snapwork.hdfc" />
+32-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:28:9-53
+32-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:28:18-50
+33        <package android:name="com.mgs.hsbcupi" />
+33-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:29:9-51
+33-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:29:18-48
+34        <package android:name="com.csam.icici.bank.imobile" />
+34-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:30:9-63
+34-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:30:18-60
+35        <package android:name="com.icicibank.pockets" />
+35-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:31:9-57
+35-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:31:18-54
+36        <package android:name="com.euronet.iobupi" />
+36-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:32:9-54
+36-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:32:18-51
+37        <package android:name="com.mgs.induspsp" />
+37-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:33:9-52
+37-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:33:18-49
+38        <package android:name="com.fss.jnkpsp" />
+38-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:34:9-50
+38-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:34:18-47
+39        <package android:name="com.jio.myjio" />
+39-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:35:9-49
+39-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:35:18-46
+40        <package android:name="com.mycompany.kvb" />
+40-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:36:9-53
+40-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:36:18-50
+41        <package android:name="com.kvb.mobilebanking" />
+41-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:37:9-57
+41-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:37:18-54
+42        <package android:name="com.lcode.smartz" />
+42-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:38:9-52
+42-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:38:18-49
+43        <package android:name="com.msf.kbank.mobile" />
+43-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:39:9-56
+43-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:39:18-53
+44        <package android:name="com.upi.federalbank.org.lotza" />
+44-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:40:9-65
+44-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:40:18-62
+45        <package android:name="com.infrasofttech.mahaupi" />
+45-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:41:9-61
+45-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:41:18-58
+46        <package android:name="com.mipay.in.wallet" />
+46-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:42:9-55
+46-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:42:18-52
+47        <package android:name="com.mobikwik_new" />
+47-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:43:9-52
+47-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:43:18-49
+48        <package android:name="com.myairtelapp" />
+48-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:44:9-51
+48-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:44:18-48
+49        <package android:name="com.mobikwik_new" />
+49-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:43:9-52
+49-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:43:18-49
+50        <package android:name="com.onymy.paybee.prod" />
+50-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:46:9-57
+50-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:46:18-54
+51        <package android:name="net.one97.paytm" />
+51-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:47:9-51
+51-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:47:18-48
+52        <package android:name="com.phonepe.app" />
+52-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:48:9-51
+52-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:48:18-48
+53        <package android:name="com.Version1" />
+53-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:49:9-48
+53-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:49:18-45
+54        <package android:name="com.samsung.android.spay" />
+54-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:50:9-60
+54-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:50:18-57
+55        <package android:name="com.sbi.upi" />
+55-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:51:9-47
+55-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:51:18-44
+56        <package android:name="com.SIBMobile" />
+56-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:52:9-49
+56-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:52:18-46
+57        <package android:name="com.truecaller" />
+57-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:53:9-50
+57-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:53:18-47
+58        <package android:name="com.infrasoft.uboi" />
+58-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:54:9-54
+58-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:54:18-51
+59        <package android:name="com.lcode.ucoupi" />
+59-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:55:9-52
+59-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:55:18-49
+60        <package android:name="com.YesBank" />
+60-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:56:9-47
+60-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:56:18-44
+61        <package android:name="com.dreamplug.androidapp" />
+61-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:57:9-60
+61-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:57:18-57
+62        <package android:name="money.bullet" />
+62-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:58:9-48
+62-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:58:18-45
+63        <!-- For browser content -->
+64        <intent>
+64-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:30:9-36:18
+65            <action android:name="android.intent.action.VIEW" />
+65-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:17-69
+65-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:25-66
+66
+67            <category android:name="android.intent.category.BROWSABLE" />
+67-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:17-78
+67-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:27-75
+68
+69            <data android:scheme="https" />
+69-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:17-75
+69-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:23-72
+70        </intent>
+71    </queries> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+72    <permission
+72-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:7:5-9:47
+73        android:name="com.di.battlemaniaV5.permission.C2D_MESSAGE"
+73-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:8:9-63
+74        android:protectionLevel="signature" />
+74-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:9:9-44
+75
+76    <uses-permission android:name="com.di.battlemaniaV5.permission.C2D_MESSAGE" /> <!-- OneSignal SDK has runtime checks Android version. -->
+76-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:11:5-79
+76-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:11:22-76
+77    <!-- <uses-sdk tools:overrideLibrary="android.support.customtabs"/> -->
+78    <!-- Required runtime permission to display notifications on Android 13 -->
+79    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+79-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:16:5-77
+79-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:16:22-74
+80    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+80-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:18:5-82
+80-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:18:22-79
+81    <uses-permission android:name="android.permission.WAKE_LOCK" />
+81-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:19:5-68
+81-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:19:22-65
+82    <!--
+83 Required so the device vibrates on receiving a push notification.
+84         Vibration settings of the device still apply.
+85    -->
+86    <uses-permission android:name="android.permission.VIBRATE" />
+86-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:24:5-66
+86-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:24:22-63
+87    <!--
+88 Use to restore notifications the user hasn't interacted with.
+89         They could be missed notifications if the user reboots their device if this isn't in place.
+90    -->
+91    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+91-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:30:5-81
+91-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:30:22-78
+92    <!-- Samsung -->
+93    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+93-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:32:5-86
+93-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:32:22-83
+94    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+94-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:33:5-87
+94-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:33:22-84
+95    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+95-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:34:5-81
+95-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:34:22-78
+96    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+96-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:35:5-83
+96-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:35:22-80
+97    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+97-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:36:5-88
+97-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:36:22-85
+98    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+98-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:37:5-92
+98-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:37:22-89
+99    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+99-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:38:5-84
+99-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:38:22-81
+100    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+100-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:39:5-83
+100-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:39:22-80
+101    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+101-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:40:5-91
+101-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:40:22-88
+102    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+102-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:41:5-92
+102-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:41:22-89
+103    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+103-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:42:5-93
+103-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:42:22-90
+104    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+104-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:43:5-73
+104-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:43:22-70
+105    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+105-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:44:5-82
+105-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:44:22-79
+106    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+106-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:45:5-83
+106-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:45:22-80
+107    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+107-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:46:5-88
+107-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:46:22-85
+108    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+108-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:47:5-89
+108-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:47:22-86
+109    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Telephony is optional (Auto-read SMS) -->
+109-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:15:5-75
+109-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:15:22-72
+110    <uses-feature
+110-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:18:5-20:36
+111        android:name="android.hardware.telephony"
+111-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:19:9-50
+112        android:required="false" />
+112-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:20:9-33
+113
+114    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+114-->[in.juspay:godel:0.6.25.4.1423] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\2ea291b90fe17f7c3bf7f2f7d66a0bb3\jetified-godel-0.6.25.4.1423\AndroidManifest.xml:9:5-81
+114-->[in.juspay:godel:0.6.25.4.1423] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\2ea291b90fe17f7c3bf7f2f7d66a0bb3\jetified-godel-0.6.25.4.1423\AndroidManifest.xml:9:22-78
+115    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+115-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:26:5-110
+115-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:26:22-107
+116    <uses-permission android:name="android.permission.CAMERA" />
+116-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:5-65
+116-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:22-62
+117
+118    <uses-feature
+118-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:12:5-14:36
+119        android:name="android.hardware.camera"
+119-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:13:9-47
+120        android:required="false" />
+120-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:14:9-33
+121    <uses-feature
+121-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:15:5-17:36
+122        android:name="android.hardware.camera.autofocus"
+122-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:16:9-57
+123        android:required="false" />
+123-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:17:9-33
+124
+125    <application
+125-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:19:5-213:19
+126        android:name="com.di.battlemaniaV5.utils.MyApp"
+126-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:20:9-56
+127        android:allowBackup="true"
+127-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:21:9-35
+128        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+128-->[androidx.core:core:1.5.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f630f39a5525e9157b205e30ec4c0ff2\core-1.5.0\AndroidManifest.xml:24:18-86
+129        android:debuggable="true"
+130        android:hardwareAccelerated="true"
+130-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:22:9-43
+131        android:icon="@drawable/logoo"
+131-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:23:9-39
+132        android:label="@string/app_name"
+132-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:24:9-41
+133        android:largeHeap="true"
+133-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:25:9-33
+134        android:roundIcon="@drawable/logoo"
+134-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:26:9-44
+135        android:supportsRtl="true"
+135-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:27:9-35
+136        android:testOnly="true"
+137        android:theme="@style/AppTheme"
+137-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:28:9-40
+138        android:usesCleartextTraffic="true" >
+138-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:29:9-44
+139        <activity
+139-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:32:9-34:39
+140            android:name="com.di.battlemaniaV5.ui.activities.TronActivity"
+140-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:33:13-75
+141            android:exported="true" />
+141-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:34:13-36
+142        <activity
+142-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:35:9-37:39
+143            android:name="com.di.battlemaniaV5.ui.activities.ChooseLanguageActivity"
+143-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:36:13-85
+144            android:exported="true" />
+144-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:37:13-36
+145        <activity android:name="com.di.battlemaniaV5.ui.activities.SelectedLanguageActivity" />
+145-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:38:9-96
+145-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:38:19-93
+146        <activity android:name="com.di.battlemaniaV5.ui.activities.SingleOrderActivity" />
+146-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:39:9-91
+146-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:39:19-88
+147        <activity android:name="com.di.battlemaniaV5.ui.activities.MyOrderActivity" />
+147-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:40:9-87
+147-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:40:19-84
+148        <activity android:name="com.di.battlemaniaV5.ui.activities.SuccessOrderActivity" />
+148-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:41:9-92
+148-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:41:19-89
+149        <activity android:name="com.di.battlemaniaV5.ui.activities.ProductOrderActivity" />
+149-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:42:9-92
+149-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:42:19-89
+150        <activity android:name="com.di.battlemaniaV5.ui.activities.SingleProductActivity" />
+150-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:43:9-93
+150-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:43:19-90
+151        <activity android:name="com.di.battlemaniaV5.ui.activities.ProductActivity" />
+151-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:44:9-87
+151-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:44:19-84
+152
+153        <meta-data
+153-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:46:9-48:52
+154            android:name="com.google.android.gms.ads.APPLICATION_ID"
+154-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:47:13-69
+155            android:value="@string/admob_app_id" />
+155-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:48:13-49
+156
+157        <activity android:name="com.di.battlemaniaV5.ui.activities.MyRewardedActivity" />
+157-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:50:9-90
+157-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:50:19-87
+158        <activity
+158-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:51:9-54:51
+159            android:name="com.di.battlemaniaV5.ui.activities.WatchAndEarnActivity"
+159-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:52:13-83
+160            android:label=""
+160-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:53:13-29
+161            android:theme="@style/AppThemetest" />
+161-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:54:13-48
+162        <activity android:name="com.di.battlemaniaV5.ui.activities.FpOtpVerificationActivity" />
+162-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:55:9-97
+162-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:55:19-94
+163        <activity android:name="com.di.battlemaniaV5.ui.activities.SelectedLotteryActivity" />
+163-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:56:9-95
+163-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:56:19-92
+164        <activity android:name="com.di.battlemaniaV5.ui.activities.LotteryActivity" />
+164-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:57:9-87
+164-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:57:19-84
+165        <activity android:name="com.di.battlemaniaV5.ui.activities.AnnouncementActivity" />
+165-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:58:9-92
+165-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:58:19-89
+166        <activity android:name="com.di.battlemaniaV5.ui.activities.OtpVerifyActivity" />
+166-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:59:9-89
+166-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:59:19-86
+167
+168        <meta-data
+168-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:61:9-63:55
+169            android:name="com.facebook.sdk.ApplicationId"
+169-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:62:13-58
+170            android:value="@string/facebook_app_id" />
+170-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:63:13-52
+171
+172        <activity
+172-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:65:9-68:48
+173            android:name="com.facebook.FacebookActivity"
+173-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:66:13-57
+174            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+174-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:67:13-96
+175            android:label="@string/app_name"
+175-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:68:13-45
+176            android:theme="@style/com_facebook_activity_theme" />
+176-->[com.facebook.android:facebook-common:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\7ceffee688acc9fc5c9c649d21d325c6\jetified-facebook-common-9.0.0\AndroidManifest.xml:33:13-63
+177        <activity
+177-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:69:9-80:20
+178            android:name="com.facebook.CustomTabActivity"
+178-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:70:13-58
+179            android:exported="true" >
+179-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:71:13-36
+180            <intent-filter>
+180-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:72:13-79:29
+181                <action android:name="android.intent.action.VIEW" />
+181-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:17-69
+181-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:25-66
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:17-76
+183-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:17-78
+184-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:27-75
+185
+186                <data android:scheme="@string/fb_login_protocol_scheme" />
+186-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:17-75
+186-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:23-72
+187            </intent-filter>
+188            <intent-filter>
+188-->[com.facebook.android:facebook-common:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\7ceffee688acc9fc5c9c649d21d325c6\jetified-facebook-common-9.0.0\AndroidManifest.xml:39:13-48:29
+189                <action android:name="android.intent.action.VIEW" />
+189-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:17-69
+189-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:25-66
+190
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:17-76
+191-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:27-73
+192                <category android:name="android.intent.category.BROWSABLE" />
+192-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:17-78
+192-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:27-75
+193
+194                <data
+194-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:17-75
+195                    android:host="cct.com.di.battlemaniaV5"
+196                    android:scheme="fbconnect" />
+196-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:23-72
+197            </intent-filter>
+198        </activity>
+199        <activity android:name="com.di.battlemaniaV5.ui.activities.IndroductionActivity" />
+199-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:81:9-92
+199-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:81:19-89
+200        <activity android:name="com.di.battlemaniaV5.ui.activities.OfflinePaymentActivity" />
+200-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:82:9-94
+200-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:82:19-91
+201        <activity android:name="com.di.battlemaniaV5.ui.activities.TermsandConditionActivity" />
+201-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:83:9-97
+201-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:83:19-94
+202        <activity android:name="com.di.battlemaniaV5.ui.activities.LeaderboardActivity" />
+202-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:84:9-91
+202-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:84:19-88
+203        <activity
+203-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:85:9-87:58
+204            android:name="com.di.battlemaniaV5.ui.activities.WithdrawMoneyActivity"
+204-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:86:13-84
+205            android:theme="@style/AppThemeplaceholder" />
+205-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:87:13-55
+206        <activity
+206-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:88:9-91:58
+207            android:name="com.di.battlemaniaV5.ui.activities.AddMoneyActivity"
+207-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:89:13-79
+208            android:screenOrientation="portrait"
+208-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:90:13-49
+209            android:theme="@style/AppThemeplaceholder" />
+209-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:91:13-55
+210        <activity android:name="com.di.battlemaniaV5.ui.activities.MyReferralsActivity" />
+210-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:92:9-91
+210-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:92:19-88
+211        <activity
+211-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:93:9-96:51
+212            android:name="com.di.battlemaniaV5.ui.activities.ReferandEarnActivity"
+212-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:94:13-83
+213            android:label=""
+213-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:95:13-29
+214            android:theme="@style/AppThemetest" />
+214-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:96:13-48
+215        <activity android:name="com.di.battlemaniaV5.ui.activities.SelectedGameActivity" />
+215-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:97:9-92
+215-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:97:19-89
+216        <activity android:name="com.di.battlemaniaV5.ui.activities.AppUpdateActivity" />
+216-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:98:9-89
+216-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:98:19-86
+217        <activity
+217-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:99:9-101:62
+218            android:name="com.di.battlemaniaV5.ui.activities.HowtoActivity"
+218-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:100:13-76
+219            android:configChanges="orientation|screenSize" />
+219-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:101:13-59
+220        <!--
+221 <provider
+222            android:name=".utils.GenericFileProvider"
+223            android:authorities="${applicationId}.fileprovider"
+224            android:exported="false"
+225            android:grantUriPermissions="true">
+226            <meta-data
+227                android:name="android.support.FILE_PROVIDER_PATHS"
+228                android:resource="@xml/provider_paths" />
+229        </provider>
+230        -->
+231        <provider
+232            android:name="androidx.core.content.FileProvider"
+232-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:114:13-62
+233            android:authorities="com.di.battlemaniaV5.provider"
+233-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:115:13-60
+234            android:exported="false"
+234-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:116:13-37
+235            android:grantUriPermissions="true" >
+235-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:117:13-47
+236            <meta-data
+236-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:118:13-120:58
+237                android:name="android.support.FILE_PROVIDER_PATHS"
+237-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:119:17-67
+238                android:resource="@xml/provider_paths" />
+238-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:120:17-55
+239        </provider>
+240
+241        <receiver android:name="com.di.battlemaniaV5.utils.InstallReceivernew" >
+241-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:123:9-132:20
+241-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:123:19-79
+242            <intent-filter>
+242-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:124:13-131:29
+243                <action android:name="android.intent.action.PACKAGE_ADDED" />
+243-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:125:17-78
+243-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:125:25-75
+244                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+244-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:126:17-80
+244-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:126:25-77
+245
+246                <category android:name="android.intent.category.DEFAULT" />
+246-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:17-76
+246-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:27-73
+247
+248                <data android:scheme="package" />
+248-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:17-75
+248-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:23-72
+249            </intent-filter>
+250        </receiver>
+251
+252        <activity
+252-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:134:9-142:20
+253            android:name="com.di.battlemaniaV5.ui.activities.FirstActivity"
+253-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:135:13-76
+254            android:theme="@style/AppThemeforfirstpage" >
+254-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:136:13-56
+255            <intent-filter>
+255-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:137:13-141:29
+256                <action android:name="android.intent.action.MAIN" />
+256-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:138:17-69
+256-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:138:25-66
+257
+258                <category android:name="android.intent.category.LAUNCHER" />
+258-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:140:17-77
+258-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:140:27-74
+259            </intent-filter>
+260        </activity>
+261
+262        <service
+262-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:144:9-150:19
+263            android:name="com.di.battlemaniaV5.ui.activities.MyFirebaseMessagingService"
+263-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:145:13-89
+264            android:stopWithTask="false" >
+264-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:146:13-41
+265            <intent-filter>
+265-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:147:13-149:29
+266                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+266-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:148:17-78
+266-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:148:25-75
+267            </intent-filter>
+268        </service>
+269
+270        <activity android:name="com.di.battlemaniaV5.ui.activities.NoInternetActivity" />
+270-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:152:9-90
+270-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:152:19-87
+271        <activity android:name="com.di.battlemaniaV5.ui.activities.SuccessJoinActivity" />
+271-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:153:9-91
+271-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:153:19-88
+272        <activity android:name="com.di.battlemaniaV5.ui.activities.SelectMatchPositionActivity" />
+272-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:154:9-99
+272-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:154:19-96
+273        <activity android:name="com.di.battlemaniaV5.ui.activities.SelectedResultActivity" />
+273-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:155:9-94
+273-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:155:19-91
+274        <activity android:name="com.di.battlemaniaV5.ui.activities.CustomerSupportActivity" />
+274-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:156:9-95
+274-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:156:19-92
+275        <activity android:name="com.di.battlemaniaV5.ui.activities.AboutusActivity" />
+275-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:157:9-87
+275-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:157:19-84
+276        <activity android:name="com.di.battlemaniaV5.ui.activities.TopPlayerActivity" />
+276-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:158:9-89
+276-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:158:19-86
+277        <activity android:name="com.di.battlemaniaV5.ui.activities.MyStatisticsActivity" />
+277-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:159:9-92
+277-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:159:19-89
+278        <activity android:name="com.di.battlemaniaV5.ui.activities.SelectedTournamentActivity" />
+278-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:160:9-98
+278-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:160:19-95
+279        <activity
+279-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:161:9-163:58
+280            android:name="com.di.battlemaniaV5.ui.activities.JoiningMatch"
+280-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:162:13-75
+281            android:theme="@style/AppThemeplaceholder" />
+281-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:163:13-55
+282        <activity android:name="com.di.battlemaniaV5.ui.activities.TansactionSuccessActivity" />
+282-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:164:9-97
+282-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:164:19-94
+283        <activity android:name="com.di.battlemaniaV5.ui.activities.TransactionFailActivity" />
+283-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:165:9-95
+283-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:165:19-92
+284        <!--
+285  <activity
+286            android:name=".ui.login.TransactionSuccessActivity"
+287            android:label="@string/title_activity_transaction_success" />
+288        -->
+289        <activity
+289-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:171:9-173:58
+290            android:name="com.di.battlemaniaV5.ui.activities.MyProfileActivity"
+290-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:172:13-80
+291            android:theme="@style/AppThemeplaceholder" />
+291-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:173:13-55
+292        <activity
+292-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:174:9-176:58
+293            android:name="com.di.battlemaniaV5.ui.activities.LudoNotificationActivity"
+293-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:175:13-87
+294            android:theme="@style/AppThemeplaceholder" />
+294-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:176:13-55
+295        <activity
+295-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:177:9-180:52
+296            android:name="com.paytm.pgsdk.PaytmPGActivity"
+296-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:178:13-59
+297            android:configChanges="keyboardHidden|orientation|keyboard"
+297-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:179:13-72
+298            android:screenOrientation="portrait"
+298-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:180:13-49
+299            android:theme="@style/AppTheme" />
+299-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:17:13-44
+300        <activity android:name="com.di.battlemaniaV5.ui.activities.MyWalletActivity" />
+300-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:181:9-88
+300-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:181:19-85
+301        <activity
+301-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:182:9-184:59
+302            android:name="com.di.battlemaniaV5.ui.activities.HomeActivity"
+302-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:183:13-75
+303            android:label="@string/title_activity_home" />
+303-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:184:13-56
+304        <activity
+304-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:185:9-187:58
+305            android:name="com.di.battlemaniaV5.ui.activities.CreateNewAccount"
+305-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:186:13-79
+306            android:theme="@style/AppThemeplaceholder" />
+306-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:187:13-55
+307        <activity
+307-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:188:9-190:58
+308            android:name="com.di.battlemaniaV5.ui.activities.LudoActivity"
+308-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:189:13-75
+309            android:theme="@style/AppThemeplaceholder" />
+309-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:190:13-55
+310        <activity
+310-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:191:9-193:58
+311            android:name="com.di.battlemaniaV5.ui.activities.LudoLeaderBoardActivity"
+311-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:192:13-86
+312            android:theme="@style/AppThemeplaceholder" />
+312-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:193:13-55
+313        <activity
+313-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:194:9-196:58
+314            android:name="com.di.battlemaniaV5.ui.activities.FriendsActivity"
+314-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:195:13-78
+315            android:theme="@style/AppThemeplaceholder" />
+315-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:196:13-55
+316        <activity
+316-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:197:9-199:58
+317            android:name="com.di.battlemaniaV5.ui.activities.SelectedMyContestActivity"
+317-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:198:13-88
+318            android:theme="@style/AppThemeplaceholder" />
+318-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:199:13-55
+319        <activity
+319-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:200:9-202:58
+320            android:name="com.di.battlemaniaV5.ui.activities.MainActivity"
+320-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:201:13-75
+321            android:theme="@style/AppThemeplaceholder" />
+321-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:202:13-55
+322        <activity
+322-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:203:9-205:58
+323            android:name="com.di.battlemaniaV5.ui.activities.LudoChatActivity"
+323-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:204:13-79
+324            android:theme="@style/AppThemeplaceholder" />
+324-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:205:13-55
+325
+326        <meta-data
+326-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:207:9-209:37
+327            android:name="firebase_messaging_auto_init_enabled"
+327-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:208:13-64
+328            android:value="false" />
+328-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:209:13-34
+329        <meta-data
+329-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:210:9-212:37
+330            android:name="firebase_analytics_collection_enabled"
+330-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:211:13-65
+331            android:value="false" />
+331-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:212:13-34
+332
+333        <activity
+333-->[in.payu:native-otp-assist:1.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\cf1d4bbeb365fee37ddf327120ddb914\jetified-native-otp-assist-1.2.0\AndroidManifest.xml:14:9-17:57
+334            android:name="com.payu.otpassist.PayUOtpAssistActivity"
+334-->[in.payu:native-otp-assist:1.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\cf1d4bbeb365fee37ddf327120ddb914\jetified-native-otp-assist-1.2.0\AndroidManifest.xml:15:13-68
+335            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+335-->[in.payu:native-otp-assist:1.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\cf1d4bbeb365fee37ddf327120ddb914\jetified-native-otp-assist-1.2.0\AndroidManifest.xml:16:13-75
+336            android:windowSoftInputMode="stateHidden" />
+336-->[in.payu:native-otp-assist:1.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\cf1d4bbeb365fee37ddf327120ddb914\jetified-native-otp-assist-1.2.0\AndroidManifest.xml:17:13-54
+337        <activity
+337-->[in.payu:payu-custom-browser:7.8.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\12dc44fd1f763dbebc39eda51959ecfa\jetified-payu-custom-browser-7.8.0\AndroidManifest.xml:18:9-21:63
+338            android:name="com.payu.custombrowser.CBActivity"
+338-->[in.payu:payu-custom-browser:7.8.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\12dc44fd1f763dbebc39eda51959ecfa\jetified-payu-custom-browser-7.8.0\AndroidManifest.xml:19:13-61
+339            android:screenOrientation="portrait"
+339-->[in.payu:payu-custom-browser:7.8.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\12dc44fd1f763dbebc39eda51959ecfa\jetified-payu-custom-browser-7.8.0\AndroidManifest.xml:20:13-49
+340            android:windowSoftInputMode="stateAlwaysHidden" />
+340-->[in.payu:payu-custom-browser:7.8.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\12dc44fd1f763dbebc39eda51959ecfa\jetified-payu-custom-browser-7.8.0\AndroidManifest.xml:21:13-60
+341
+342        <service android:name="com.payu.custombrowser.services.SnoozeService" />
+342-->[in.payu:payu-custom-browser:7.8.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\12dc44fd1f763dbebc39eda51959ecfa\jetified-payu-custom-browser-7.8.0\AndroidManifest.xml:23:9-81
+342-->[in.payu:payu-custom-browser:7.8.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\12dc44fd1f763dbebc39eda51959ecfa\jetified-payu-custom-browser-7.8.0\AndroidManifest.xml:23:18-78
+343
+344        <activity
+344-->[in.payu:payu-checkout-pro-ui:1.7.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\60c27159b1738d097a937f8d8fa93825\jetified-payu-checkout-pro-ui-1.7.0\AndroidManifest.xml:18:9-20:52
+345            android:name="com.payu.ui.view.activities.CheckoutActivity"
+345-->[in.payu:payu-checkout-pro-ui:1.7.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\60c27159b1738d097a937f8d8fa93825\jetified-payu-checkout-pro-ui-1.7.0\AndroidManifest.xml:19:13-72
+346            android:screenOrientation="portrait" />
+346-->[in.payu:payu-checkout-pro-ui:1.7.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\60c27159b1738d097a937f8d8fa93825\jetified-payu-checkout-pro-ui-1.7.0\AndroidManifest.xml:20:13-49
+347
+348        <meta-data
+348-->[in.payu:payu-checkout-pro-ui:1.7.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\60c27159b1738d097a937f8d8fa93825\jetified-payu-checkout-pro-ui-1.7.0\AndroidManifest.xml:22:9-24:57
+349            android:name="preloaded_fonts"
+349-->[in.payu:payu-checkout-pro-ui:1.7.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\60c27159b1738d097a937f8d8fa93825\jetified-payu-checkout-pro-ui-1.7.0\AndroidManifest.xml:23:13-43
+350            android:resource="@array/preloaded_fonts" />
+350-->[in.payu:payu-checkout-pro-ui:1.7.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\60c27159b1738d097a937f8d8fa93825\jetified-payu-checkout-pro-ui-1.7.0\AndroidManifest.xml:24:13-54
+351
+352        <activity
+352-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:64:9-67:63
+353            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
+353-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:65:13-83
+354            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+354-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:66:13-75
+355            android:windowSoftInputMode="stateAlwaysHidden" />
+355-->[in.payu:upisdk:1.5.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\4f55bb837a99c66023acbed0f3a3d56d\jetified-upisdk-1.5.2\AndroidManifest.xml:67:13-60
+356
+357        <receiver
+357-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:50:9-61:20
+358            android:name="com.onesignal.FCMBroadcastReceiver"
+358-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:51:13-62
+359            android:exported="true"
+359-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:52:13-36
+360            android:permission="com.google.android.c2dm.permission.SEND" >
+360-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:53:13-73
+361
+362            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+363            <intent-filter android:priority="999" >
+363-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:56:13-60:29
+363-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:56:28-50
+364                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+364-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:57:17-81
+364-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:57:25-78
+365
+366                <category android:name="com.di.battlemaniaV5" />
+366-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:59:17-61
+366-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:59:27-58
+367            </intent-filter>
+368        </receiver>
+369
+370        <service
+370-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:63:9-69:19
+371            android:name="com.onesignal.HmsMessageServiceOneSignal"
+371-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:64:13-68
+372            android:exported="false" >
+372-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:65:13-37
+373            <intent-filter>
+373-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:66:13-68:29
+374                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+374-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:67:17-81
+374-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:67:25-78
+375            </intent-filter>
+376        </service>
+377
+378        <activity
+378-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:71:9-79:20
+379            android:name="com.onesignal.NotificationOpenedActivityHMS"
+379-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:72:13-71
+380            android:exported="true"
+380-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:73:13-36
+381            android:noHistory="true"
+381-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:74:13-37
+382            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+382-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:75:13-72
+383            <intent-filter>
+383-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:76:13-78:29
+384                <action android:name="android.intent.action.VIEW" />
+384-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:17-69
+384-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:25-66
+385            </intent-filter>
+386        </activity>
+387
+388        <service
+388-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:81:9-83:40
+389            android:name="com.onesignal.FCMIntentService"
+389-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:82:13-58
+390            android:exported="false" />
+390-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:83:13-37
+391        <service
+391-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:84:9-87:72
+392            android:name="com.onesignal.FCMIntentJobService"
+392-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:85:13-61
+393            android:exported="false"
+393-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:86:13-37
+394            android:permission="android.permission.BIND_JOB_SERVICE" />
+394-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:87:13-69
+395        <service
+395-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:88:9-91:43
+396            android:name="com.onesignal.SyncService"
+396-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:89:13-53
+397            android:exported="false"
+397-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:90:13-37
+398            android:stopWithTask="true" />
+398-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:91:13-40
+399        <service
+399-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:92:9-95:72
+400            android:name="com.onesignal.SyncJobService"
+400-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:93:13-56
+401            android:exported="false"
+401-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:94:13-37
+402            android:permission="android.permission.BIND_JOB_SERVICE" />
+402-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:95:13-69
+403
+404        <activity
+404-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:97:9-100:75
+405            android:name="com.onesignal.PermissionsActivity"
+405-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:98:13-61
+406            android:exported="false"
+406-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:99:13-37
+407            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+407-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:100:13-72
+408
+409        <receiver
+409-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:102:9-104:39
+410            android:name="com.onesignal.NotificationDismissReceiver"
+410-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:103:13-69
+411            android:exported="true" />
+411-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:104:13-36
+412        <receiver
+412-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:105:9-112:20
+413            android:name="com.onesignal.BootUpReceiver"
+413-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:106:13-56
+414            android:exported="true" >
+414-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:107:13-36
+415            <intent-filter>
+415-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:108:13-111:29
+416                <action android:name="android.intent.action.BOOT_COMPLETED" />
+416-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:109:17-79
+416-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:109:25-76
+417                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+417-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:110:17-82
+417-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:110:25-79
+418            </intent-filter>
+419        </receiver>
+420        <receiver
+420-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:113:9-119:20
+421            android:name="com.onesignal.UpgradeReceiver"
+421-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:114:13-57
+422            android:exported="true" >
+422-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:115:13-36
+423            <intent-filter>
+423-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:116:13-118:29
+424                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+424-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:117:17-84
+424-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:117:25-81
+425            </intent-filter>
+426        </receiver>
+427
+428        <activity
+428-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:121:9-127:75
+429            android:name="com.onesignal.NotificationOpenedReceiver"
+429-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:122:13-68
+430            android:excludeFromRecents="true"
+430-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:123:13-46
+431            android:exported="true"
+431-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:124:13-36
+432            android:noHistory="true"
+432-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:125:13-37
+433            android:taskAffinity=""
+433-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:126:13-36
+434            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+434-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:127:13-72
+435        <activity
+435-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:128:9-133:75
+436            android:name="com.onesignal.NotificationOpenedReceiverAndroid22AndOlder"
+436-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:129:13-85
+437            android:excludeFromRecents="true"
+437-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:130:13-46
+438            android:exported="true"
+438-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:131:13-36
+439            android:noHistory="true"
+439-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:132:13-37
+440            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+440-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:133:13-72
+441        <activity
+441-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:26:9-37:20
+442            android:name="com.instamojo.android.activities.PaymentDetailsActivity"
+442-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:27:13-83
+443            android:screenOrientation="portrait"
+443-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:28:13-49
+444            android:theme="@style/SdkTheme" >
+444-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:29:13-44
+445            <meta-data
+445-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:30:13-32:54
+446                android:name="android.app.searchable"
+446-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:31:17-54
+447                android:resource="@xml/searchable" />
+447-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:32:17-51
+448
+449            <intent-filter>
+449-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:34:13-36:29
+450                <action android:name="android.intent.action.SEARCH" />
+450-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:35:17-71
+450-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:35:25-68
+451            </intent-filter>
+452        </activity>
+453        <activity
+453-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:38:9-44:58
+454            android:name="com.instamojo.android.activities.PaymentActivity"
+454-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:39:13-76
+455            android:hardwareAccelerated="true"
+455-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:40:13-47
+456            android:label="Payment"
+456-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:41:13-36
+457            android:screenOrientation="portrait"
+457-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:42:13-49
+458            android:theme="@style/SdkTheme"
+458-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:43:13-44
+459            android:windowSoftInputMode="adjustResize" />
+459-->[com.instamojo:android-sdk:3.4.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\524ab26ec299f988b98d88d209ca1ce9\jetified-android-sdk-3.4.0\AndroidManifest.xml:44:13-55
+460
+461        <uses-library
+461-->[in.juspay:godel:0.6.25.4.1423] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\2ea291b90fe17f7c3bf7f2f7d66a0bb3\jetified-godel-0.6.25.4.1423\AndroidManifest.xml:13:9-15:40
+462            android:name="org.apache.http.legacy"
+462-->[in.juspay:godel:0.6.25.4.1423] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\2ea291b90fe17f7c3bf7f2f7d66a0bb3\jetified-godel-0.6.25.4.1423\AndroidManifest.xml:14:13-50
+463            android:required="false" />
+463-->[in.juspay:godel:0.6.25.4.1423] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\2ea291b90fe17f7c3bf7f2f7d66a0bb3\jetified-godel-0.6.25.4.1423\AndroidManifest.xml:15:13-37
+464
+465        <activity android:name="com.facebook.CustomTabMainActivity" />
+465-->[com.facebook.android:facebook-common:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\7ceffee688acc9fc5c9c649d21d325c6\jetified-facebook-common-9.0.0\AndroidManifest.xml:34:9-71
+465-->[com.facebook.android:facebook-common:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\7ceffee688acc9fc5c9c649d21d325c6\jetified-facebook-common-9.0.0\AndroidManifest.xml:34:19-68
+466
+467        <provider
+467-->[com.squareup.picasso:picasso:2.71828] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9ad4979ec820664bbbc6fb9f46dd6a07\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+468            android:name="com.squareup.picasso.PicassoProvider"
+468-->[com.squareup.picasso:picasso:2.71828] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9ad4979ec820664bbbc6fb9f46dd6a07\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+469            android:authorities="com.di.battlemaniaV5.com.squareup.picasso"
+469-->[com.squareup.picasso:picasso:2.71828] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9ad4979ec820664bbbc6fb9f46dd6a07\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+470            android:exported="false" />
+470-->[com.squareup.picasso:picasso:2.71828] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9ad4979ec820664bbbc6fb9f46dd6a07\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+471
+472        <service
+472-->[com.google.firebase:firebase-database:20.0.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5d96f2702d186c0fd2ef9dec846b788c\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+473            android:name="com.google.firebase.components.ComponentDiscoveryService"
+473-->[com.google.firebase:firebase-database:20.0.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5d96f2702d186c0fd2ef9dec846b788c\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+474            android:directBootAware="true"
+474-->[com.google.firebase:firebase-common:20.1.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\186d5865158796b4e309b337d9bd28dc\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+475            android:exported="false" >
+475-->[com.google.firebase:firebase-database:20.0.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5d96f2702d186c0fd2ef9dec846b788c\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+476            <meta-data
+476-->[com.google.firebase:firebase-database:20.0.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5d96f2702d186c0fd2ef9dec846b788c\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+477                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+477-->[com.google.firebase:firebase-database:20.0.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5d96f2702d186c0fd2ef9dec846b788c\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+478                android:value="com.google.firebase.components.ComponentRegistrar" />
+478-->[com.google.firebase:firebase-database:20.0.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5d96f2702d186c0fd2ef9dec846b788c\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+479            <meta-data
+479-->[com.google.firebase:firebase-messaging:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5f49488891b0c7e5c636fb9164ca5bd4\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+480                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+480-->[com.google.firebase:firebase-messaging:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5f49488891b0c7e5c636fb9164ca5bd4\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+481                android:value="com.google.firebase.components.ComponentRegistrar" />
+481-->[com.google.firebase:firebase-messaging:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5f49488891b0c7e5c636fb9164ca5bd4\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+482            <meta-data
+482-->[com.google.firebase:firebase-iid:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ba006dc6812d52dcdc3d869da14ac4fb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+483                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+483-->[com.google.firebase:firebase-iid:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ba006dc6812d52dcdc3d869da14ac4fb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+484                android:value="com.google.firebase.components.ComponentRegistrar" />
+484-->[com.google.firebase:firebase-iid:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ba006dc6812d52dcdc3d869da14ac4fb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+485            <meta-data
+485-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:77:13-79:85
+486                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+486-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:78:17-109
+487                android:value="com.google.firebase.components.ComponentRegistrar" />
+487-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:79:17-82
+488            <meta-data
+488-->[com.google.android.gms:play-services-measurement-api:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\0cdb475c311eeb5f2db8a8c0337a8732\jetified-play-services-measurement-api-18.0.1\AndroidManifest.xml:30:13-32:85
+489                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+489-->[com.google.android.gms:play-services-measurement-api:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\0cdb475c311eeb5f2db8a8c0337a8732\jetified-play-services-measurement-api-18.0.1\AndroidManifest.xml:31:17-139
+490                android:value="com.google.firebase.components.ComponentRegistrar" />
+490-->[com.google.android.gms:play-services-measurement-api:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\0cdb475c311eeb5f2db8a8c0337a8732\jetified-play-services-measurement-api-18.0.1\AndroidManifest.xml:32:17-82
+491            <meta-data
+491-->[com.google.firebase:firebase-crashlytics:17.3.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\c8c46357d8245b836578e92a24cae980\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:18:13-20:85
+492                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+492-->[com.google.firebase:firebase-crashlytics:17.3.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\c8c46357d8245b836578e92a24cae980\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:19:17-115
+493                android:value="com.google.firebase.components.ComponentRegistrar" />
+493-->[com.google.firebase:firebase-crashlytics:17.3.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\c8c46357d8245b836578e92a24cae980\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:20:17-82
+494            <meta-data
+494-->[com.google.firebase:firebase-installations:16.3.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a40226b3e2f3fc8e7c5862ed8a282b19\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+495                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+495-->[com.google.firebase:firebase-installations:16.3.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a40226b3e2f3fc8e7c5862ed8a282b19\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+496                android:value="com.google.firebase.components.ComponentRegistrar" />
+496-->[com.google.firebase:firebase-installations:16.3.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a40226b3e2f3fc8e7c5862ed8a282b19\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+497            <meta-data
+497-->[com.google.firebase:firebase-datatransport:17.0.10] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\cc18dc7d8d69ad0ce9ebad0e8ee5c40b\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+498                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+498-->[com.google.firebase:firebase-datatransport:17.0.10] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\cc18dc7d8d69ad0ce9ebad0e8ee5c40b\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+499                android:value="com.google.firebase.components.ComponentRegistrar" />
+499-->[com.google.firebase:firebase-datatransport:17.0.10] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\cc18dc7d8d69ad0ce9ebad0e8ee5c40b\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+500        </service>
+501
+502        <provider
+502-->[androidx.lifecycle:lifecycle-process:2.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9538ad4513fd4429733e632e58bd34e5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+503            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+503-->[androidx.lifecycle:lifecycle-process:2.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9538ad4513fd4429733e632e58bd34e5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+504            android:authorities="com.di.battlemaniaV5.lifecycle-process"
+504-->[androidx.lifecycle:lifecycle-process:2.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9538ad4513fd4429733e632e58bd34e5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+505            android:exported="false"
+505-->[androidx.lifecycle:lifecycle-process:2.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9538ad4513fd4429733e632e58bd34e5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+506            android:multiprocess="true" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+506-->[androidx.lifecycle:lifecycle-process:2.2.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9538ad4513fd4429733e632e58bd34e5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+507        <activity
+507-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:43:9-47:64
+508            android:name="com.google.android.gms.ads.AdActivity"
+508-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:44:13-65
+509            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+509-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:45:13-122
+510            android:exported="false"
+510-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:46:13-37
+511            android:theme="@android:style/Theme.Translucent" />
+511-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:47:13-61
+512
+513        <provider
+513-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:49:9-53:39
+514            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+514-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:50:13-76
+515            android:authorities="com.di.battlemaniaV5.mobileadsinitprovider"
+515-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:51:13-73
+516            android:exported="false"
+516-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:52:13-37
+517            android:initOrder="100" />
+517-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:53:13-36
+518
+519        <service
+519-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:55:9-58:40
+520            android:name="com.google.android.gms.ads.AdService"
+520-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:56:13-64
+521            android:enabled="true"
+521-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:57:13-35
+522            android:exported="false" />
+522-->[com.google.android.gms:play-services-ads-lite:19.6.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f84cd9a23f0bd698cc17af6eecb48896\jetified-play-services-ads-lite-19.6.0\AndroidManifest.xml:58:13-37
+523
+524        <provider
+524-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:30:9-36:35
+525            android:name="androidx.work.impl.WorkManagerInitializer"
+525-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:31:13-69
+526            android:authorities="com.di.battlemaniaV5.workmanager-init"
+526-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:32:13-68
+527            android:directBootAware="false"
+527-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:33:13-44
+528            android:exported="false"
+528-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:34:13-37
+529            android:multiprocess="true" />
+529-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:35:13-40
+530
+531        <service
+531-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:38:9-43:35
+532            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+532-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:39:13-88
+533            android:directBootAware="false"
+533-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:40:13-44
+534            android:enabled="@bool/enable_system_alarm_service_default"
+534-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:41:13-72
+535            android:exported="false" />
+535-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:42:13-37
+536        <service
+536-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:44:9-50:35
+537            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+537-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:45:13-84
+538            android:directBootAware="false"
+538-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:46:13-44
+539            android:enabled="@bool/enable_system_job_service_default"
+539-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:47:13-70
+540            android:exported="true"
+540-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:48:13-36
+541            android:permission="android.permission.BIND_JOB_SERVICE" />
+541-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:49:13-69
+542
+543        <receiver
+543-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:52:9-57:35
+544            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+544-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:53:13-88
+545            android:directBootAware="false"
+545-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:54:13-44
+546            android:enabled="true"
+546-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:55:13-35
+547            android:exported="false" />
+547-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:56:13-37
+548        <receiver
+548-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:58:9-68:20
+549            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+549-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:59:13-106
+550            android:directBootAware="false"
+550-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:60:13-44
+551            android:enabled="false"
+551-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:61:13-36
+552            android:exported="false" >
+552-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:62:13-37
+553            <intent-filter>
+553-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:64:13-67:29
+554                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+554-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:65:17-87
+554-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:65:25-84
+555                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+555-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:66:17-90
+555-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:66:25-87
+556            </intent-filter>
+557        </receiver>
+558        <receiver
+558-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:69:9-79:20
+559            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+559-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:70:13-104
+560            android:directBootAware="false"
+560-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:71:13-44
+561            android:enabled="false"
+561-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:72:13-36
+562            android:exported="false" >
+562-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:73:13-37
+563            <intent-filter>
+563-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:75:13-78:29
+564                <action android:name="android.intent.action.BATTERY_OKAY" />
+564-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:76:17-77
+564-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:76:25-74
+565                <action android:name="android.intent.action.BATTERY_LOW" />
+565-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:77:17-76
+565-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:77:25-73
+566            </intent-filter>
+567        </receiver>
+568        <receiver
+568-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:80:9-90:20
+569            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+569-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:81:13-104
+570            android:directBootAware="false"
+570-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:82:13-44
+571            android:enabled="false"
+571-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:83:13-36
+572            android:exported="false" >
+572-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:84:13-37
+573            <intent-filter>
+573-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:86:13-89:29
+574                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+574-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:87:17-83
+574-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:87:25-80
+575                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+575-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:88:17-82
+575-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:88:25-79
+576            </intent-filter>
+577        </receiver>
+578        <receiver
+578-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:91:9-100:20
+579            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+579-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:92:13-103
+580            android:directBootAware="false"
+580-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:93:13-44
+581            android:enabled="false"
+581-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:94:13-36
+582            android:exported="false" >
+582-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:95:13-37
+583            <intent-filter>
+583-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:97:13-99:29
+584                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+584-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:98:17-79
+584-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:98:25-76
+585            </intent-filter>
+586        </receiver>
+587        <receiver
+587-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:101:9-112:20
+588            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+588-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:102:13-88
+589            android:directBootAware="false"
+589-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:103:13-44
+590            android:enabled="false"
+590-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:104:13-36
+591            android:exported="false" >
+591-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:105:13-37
+592            <intent-filter>
+592-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:107:13-111:29
+593                <action android:name="android.intent.action.BOOT_COMPLETED" />
+593-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:109:17-79
+593-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:109:25-76
+594                <action android:name="android.intent.action.TIME_SET" />
+594-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:109:17-73
+594-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:109:25-70
+595                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+595-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:110:17-81
+595-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:110:25-78
+596            </intent-filter>
+597        </receiver>
+598        <receiver
+598-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:113:9-122:20
+599            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+599-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:114:13-99
+600            android:directBootAware="false"
+600-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:115:13-44
+601            android:enabled="@bool/enable_system_alarm_service_default"
+601-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:116:13-72
+602            android:exported="false" >
+602-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:117:13-37
+603            <intent-filter>
+603-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:119:13-121:29
+604                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+604-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:120:17-98
+604-->[androidx.work:work-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ea7e9e1dec99380fe26bbcc80817aeaf\work-runtime-2.1.0\AndroidManifest.xml:120:25-95
+605            </intent-filter>
+606        </receiver>
+607        <!--
+608             FirebaseMessagingService performs security checks at runtime,
+609             but set to not exported to explicitly avoid allowing another app to call it.
+610        -->
+611        <service
+611-->[com.google.firebase:firebase-messaging:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5f49488891b0c7e5c636fb9164ca5bd4\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+612            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+612-->[com.google.firebase:firebase-messaging:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5f49488891b0c7e5c636fb9164ca5bd4\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+613            android:directBootAware="true"
+613-->[com.google.firebase:firebase-messaging:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5f49488891b0c7e5c636fb9164ca5bd4\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+614            android:exported="false" >
+614-->[com.google.firebase:firebase-messaging:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\5f49488891b0c7e5c636fb9164ca5bd4\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+615            <intent-filter android:priority="-500" >
+615-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:147:13-149:29
+616                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+616-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:148:17-78
+616-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:148:25-75
+617            </intent-filter>
+618        </service>
+619
+620        <receiver
+620-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:29:9-33:20
+621            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+621-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:30:13-85
+622            android:enabled="true"
+622-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:31:13-35
+623            android:exported="false" >
+623-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:32:13-37
+624        </receiver>
+625
+626        <service
+626-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:35:9-38:40
+627            android:name="com.google.android.gms.measurement.AppMeasurementService"
+627-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:36:13-84
+628            android:enabled="true"
+628-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:37:13-35
+629            android:exported="false" />
+629-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:38:13-37
+630        <service
+630-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:39:9-43:72
+631            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+631-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:40:13-87
+632            android:enabled="true"
+632-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:41:13-35
+633            android:exported="false"
+633-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:42:13-37
+634            android:permission="android.permission.BIND_JOB_SERVICE" />
+634-->[com.google.android.gms:play-services-measurement:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\9867a96d947a4623955cdd09e25e2403\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:43:13-69
+635        <!--
+636         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+637         with the application context. This config is merged in with the host app's manifest,
+638         but there can only be one provider with the same authority activated at any given
+639         point; so if the end user has two or more different apps that use Facebook SDK, only the
+640         first one will be able to use the provider. To work around this problem, we use the
+641         following placeholder in the authority to identify each host application as if it was
+642         a completely different provider.
+643        -->
+644        <provider
+644-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:39:9-42:40
+645            android:name="com.facebook.internal.FacebookInitProvider"
+645-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:40:13-70
+646            android:authorities="com.di.battlemaniaV5.FacebookInitProvider"
+646-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:41:13-72
+647            android:exported="false" />
+647-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:42:13-37
+648
+649        <receiver
+649-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:44:9-50:20
+650            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+650-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:45:13-86
+651            android:exported="false" >
+651-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:46:13-37
+652            <intent-filter>
+652-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:47:13-49:29
+653                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+653-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:48:17-95
+653-->[com.facebook.android:facebook-core:9.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\b10987fd1e9c43ca707a6ec58a3872e3\jetified-facebook-core-9.0.0\AndroidManifest.xml:48:25-92
+654            </intent-filter>
+655        </receiver>
+656        <receiver
+656-->[com.google.firebase:firebase-iid:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ba006dc6812d52dcdc3d869da14ac4fb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+657            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+657-->[com.google.firebase:firebase-iid:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ba006dc6812d52dcdc3d869da14ac4fb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+658            android:exported="true"
+658-->[com.google.firebase:firebase-iid:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ba006dc6812d52dcdc3d869da14ac4fb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+659            android:permission="com.google.android.c2dm.permission.SEND" >
+659-->[com.google.firebase:firebase-iid:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ba006dc6812d52dcdc3d869da14ac4fb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+660            <intent-filter>
+660-->[com.google.firebase:firebase-iid:21.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\ba006dc6812d52dcdc3d869da14ac4fb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:41:13-43:29
+661                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+661-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:57:17-81
+661-->[com.onesignal:OneSignal:4.8.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8766f45d315442f40e6a651d3b66214f\jetified-OneSignal-4.8.3\AndroidManifest.xml:57:25-78
+662            </intent-filter>
+663        </receiver>
+664        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+664-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:12:9-16:20
+664-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:12:19-63
+665            <intent-filter>
+665-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:13:13-15:29
+666                <action android:name="rzp.device_token.share" />
+666-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:14:17-65
+666-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:14:25-62
+667            </intent-filter>
+668        </receiver>
+669
+670        <activity
+670-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:18:9-29:20
+671            android:name="com.razorpay.CheckoutActivity"
+671-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:19:13-57
+672            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+672-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:20:13-83
+673            android:theme="@style/CheckoutTheme" >
+673-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:21:13-49
+674            <intent-filter>
+674-->[com.razorpay:checkout:1.6.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f0b9af25da76aadf0a6ad65528fd0958\jetified-checkout-1.6.4\AndroidManifest.xml:22:13-28:29
+675                <action android:name="android.intent.action.MAIN" />
+675-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:138:17-69
+675-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:138:25-66
+676
+677                <data
+677-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:17-75
+678                    android:host="rzp.io"
+679                    android:scheme="io.rzp" />
+679-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:23-72
+680            </intent-filter>
+681        </activity>
+682        <activity
+682-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+683            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+683-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+684            android:excludeFromRecents="true"
+684-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+685            android:exported="false"
+685-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+686            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+686-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+687        <!--
+688            Service handling Google Sign-In user revocation. For apps that do not integrate with
+689            Google Sign-In, this service will never be started.
+690        -->
+691        <service
+691-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+692            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+692-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+693            android:exported="true"
+693-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+694            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+694-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+695            android:visibleToInstantApps="true" />
+695-->[com.google.android.gms:play-services-auth:19.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\451e01c06b972d1c792e6715f0d0170a\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+696
+697        <activity
+697-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:27:9-44:20
+698            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+698-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:28:13-80
+699            android:excludeFromRecents="true"
+699-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:29:13-46
+700            android:exported="true"
+700-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:30:13-36
+701            android:launchMode="singleTask"
+701-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:31:13-44
+702            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+702-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:32:13-72
+703            <intent-filter>
+703-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:33:13-43:29
+704                <action android:name="android.intent.action.VIEW" />
+704-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:17-69
+704-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:25-66
+705
+706                <category android:name="android.intent.category.DEFAULT" />
+706-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:17-76
+706-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:27-73
+707                <category android:name="android.intent.category.BROWSABLE" />
+707-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:17-78
+707-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:27-75
+708
+709                <data
+709-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:17-75
+710                    android:host="firebase.auth"
+711                    android:path="/"
+712                    android:scheme="genericidp" />
+712-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:23-72
+713            </intent-filter>
+714        </activity>
+715        <activity
+715-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:45:9-62:20
+716            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+716-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:46:13-79
+717            android:excludeFromRecents="true"
+717-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:47:13-46
+718            android:exported="true"
+718-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:48:13-36
+719            android:launchMode="singleTask"
+719-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:49:13-44
+720            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+720-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:50:13-72
+721            <intent-filter>
+721-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:51:13-61:29
+722                <action android:name="android.intent.action.VIEW" />
+722-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:17-69
+722-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:73:25-66
+723
+724                <category android:name="android.intent.category.DEFAULT" />
+724-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:17-76
+724-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:27-73
+725                <category android:name="android.intent.category.BROWSABLE" />
+725-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:17-78
+725-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:76:27-75
+726
+727                <data
+727-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:17-75
+728                    android:host="firebase.auth"
+729                    android:path="/"
+730                    android:scheme="recaptcha" />
+730-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:78:23-72
+731            </intent-filter>
+732        </activity>
+733
+734        <service
+734-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:64:9-73:19
+735            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+735-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:65:13-101
+736            android:enabled="true"
+736-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:66:13-35
+737            android:exported="false" >
+737-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:67:13-37
+738            <intent-filter>
+738-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:68:13-72:29
+739                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+739-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:17-89
+739-->[com.google.firebase:firebase-auth:20.0.2] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d78297abd4e6c124899fe4b827bf66c1\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:25-86
+740
+741                <category android:name="android.intent.category.DEFAULT" />
+741-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:17-76
+741-->G:\2022 all  project\Tunament App\app\app-sourcecode\app\src\main\AndroidManifest.xml:75:27-73
+742            </intent-filter>
+743        </service>
+744
+745        <activity
+745-->[com.google.android.gms:play-services-base:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\76bc924e13104bdaef25776710896e2b\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+746            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+746-->[com.google.android.gms:play-services-base:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\76bc924e13104bdaef25776710896e2b\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+747            android:exported="false"
+747-->[com.google.android.gms:play-services-base:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\76bc924e13104bdaef25776710896e2b\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+748            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+748-->[com.google.android.gms:play-services-base:18.0.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\76bc924e13104bdaef25776710896e2b\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+749
+750        <provider
+750-->[com.google.firebase:firebase-common:20.1.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\186d5865158796b4e309b337d9bd28dc\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+751            android:name="com.google.firebase.provider.FirebaseInitProvider"
+751-->[com.google.firebase:firebase-common:20.1.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\186d5865158796b4e309b337d9bd28dc\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+752            android:authorities="com.di.battlemaniaV5.firebaseinitprovider"
+752-->[com.google.firebase:firebase-common:20.1.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\186d5865158796b4e309b337d9bd28dc\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+753            android:directBootAware="true"
+753-->[com.google.firebase:firebase-common:20.1.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\186d5865158796b4e309b337d9bd28dc\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+754            android:exported="false"
+754-->[com.google.firebase:firebase-common:20.1.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\186d5865158796b4e309b337d9bd28dc\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+755            android:initOrder="100" />
+755-->[com.google.firebase:firebase-common:20.1.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\186d5865158796b4e309b337d9bd28dc\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+756
+757        <meta-data
+757-->[com.google.android.gms:play-services-basement:18.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6785320382e2e6aea4bb692ca752f180\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+758            android:name="com.google.android.gms.version"
+758-->[com.google.android.gms:play-services-basement:18.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6785320382e2e6aea4bb692ca752f180\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+759            android:value="@integer/google_play_services_version" />
+759-->[com.google.android.gms:play-services-basement:18.0.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6785320382e2e6aea4bb692ca752f180\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+760
+761        <provider
+761-->[in.payu:payu-crash-logger:1.0.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e9b9bd3eeed91a1232056930f3111150\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:16:9-24:20
+762            android:name="androidx.startup.InitializationProvider"
+762-->[in.payu:payu-crash-logger:1.0.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e9b9bd3eeed91a1232056930f3111150\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:17:13-67
+763            android:authorities="com.di.battlemaniaV5.androidx-startup"
+763-->[in.payu:payu-crash-logger:1.0.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e9b9bd3eeed91a1232056930f3111150\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:18:13-68
+764            android:exported="false" >
+764-->[in.payu:payu-crash-logger:1.0.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e9b9bd3eeed91a1232056930f3111150\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:19:13-37
+765            <meta-data
+765-->[in.payu:payu-crash-logger:1.0.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e9b9bd3eeed91a1232056930f3111150\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:21:13-23:52
+766                android:name="com.payu.crashlogger.CrashProviderInitializer"
+766-->[in.payu:payu-crash-logger:1.0.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e9b9bd3eeed91a1232056930f3111150\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:22:17-77
+767                android:value="androidx.startup" />
+767-->[in.payu:payu-crash-logger:1.0.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e9b9bd3eeed91a1232056930f3111150\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:23:17-49
+768        </provider>
+769
+770        <service
+770-->[androidx.room:room-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e6546ce23f632f79198d6a9d153c9a8e\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+771            android:name="androidx.room.MultiInstanceInvalidationService"
+771-->[androidx.room:room-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e6546ce23f632f79198d6a9d153c9a8e\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+772            android:exported="false" />
+772-->[androidx.room:room-runtime:2.1.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\e6546ce23f632f79198d6a9d153c9a8e\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+773        <service
+773-->[com.google.android.datatransport:transport-backend-cct:2.3.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d7dc2251e5fbc56cd92318fc8e4c48ab\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+774            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+774-->[com.google.android.datatransport:transport-backend-cct:2.3.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d7dc2251e5fbc56cd92318fc8e4c48ab\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+775            android:exported="false" >
+775-->[com.google.android.datatransport:transport-backend-cct:2.3.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d7dc2251e5fbc56cd92318fc8e4c48ab\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+776            <meta-data
+776-->[com.google.android.datatransport:transport-backend-cct:2.3.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d7dc2251e5fbc56cd92318fc8e4c48ab\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+777                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+777-->[com.google.android.datatransport:transport-backend-cct:2.3.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d7dc2251e5fbc56cd92318fc8e4c48ab\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+778                android:value="cct" />
+778-->[com.google.android.datatransport:transport-backend-cct:2.3.3] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\d7dc2251e5fbc56cd92318fc8e4c48ab\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+779        </service>
+780        <service
+780-->[com.google.android.datatransport:transport-runtime:2.2.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8eae42a81f7cea7249f724f16454adc9\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+781            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+781-->[com.google.android.datatransport:transport-runtime:2.2.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8eae42a81f7cea7249f724f16454adc9\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+782            android:exported="false"
+782-->[com.google.android.datatransport:transport-runtime:2.2.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8eae42a81f7cea7249f724f16454adc9\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+783            android:permission="android.permission.BIND_JOB_SERVICE" >
+783-->[com.google.android.datatransport:transport-runtime:2.2.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8eae42a81f7cea7249f724f16454adc9\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+784        </service>
+785
+786        <receiver
+786-->[com.google.android.datatransport:transport-runtime:2.2.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8eae42a81f7cea7249f724f16454adc9\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+787            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+787-->[com.google.android.datatransport:transport-runtime:2.2.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8eae42a81f7cea7249f724f16454adc9\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+788            android:exported="false" />
+788-->[com.google.android.datatransport:transport-runtime:2.2.5] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\8eae42a81f7cea7249f724f16454adc9\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+789
+790        <service
+790-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:19:9-21:40
+791            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+791-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:20:13-73
+792            android:exported="false" />
+792-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:21:13-37
+793        <service
+793-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:22:9-24:40
+794            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+794-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:23:13-72
+795            android:exported="false" />
+795-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:24:13-37
+796        <service
+796-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:25:9-28:39
+797            android:name="com.paytm.pgsdk.easypay.utils.EasypayLoaderService"
+797-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:26:13-78
+798            android:enabled="true"
+798-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:27:13-35
+799            android:exported="true" />
+799-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:28:13-36
+800        <service
+800-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:29:9-32:39
+801            android:name="com.paytm.pgsdk.easypay.utils.AnalyticsService"
+801-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:30:13-74
+802            android:enabled="true"
+802-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:31:13-35
+803            android:exported="true" />
+803-->[com.paytm:pgplussdk:1.4.4] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\f300e359902542ad8013d8e1d977ab4c\jetified-pgplussdk-1.4.4\AndroidManifest.xml:32:13-36
+804
+805        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+805-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:13:9-84
+805-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:13:19-81
+806        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+806-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:14:9-90
+806-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:14:19-87
+807        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+807-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:15:9-91
+807-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:15:19-88
+808        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+808-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:16:9-82
+808-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:16:19-79
+809        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+809-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:17:9-96
+809-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:17:19-93
+810        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+810-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:18:9-97
+810-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:18:19-94
+811        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+811-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:19:9-94
+811-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:19:19-91
+812        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+812-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:20:9-97
+812-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:20:19-94
+813        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+813-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:21:9-98
+813-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:21:19-95
+814
+815        <service
+815-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:23:9-25:40
+816            android:name="com.paypal.android.sdk.payments.PayPalService"
+816-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:24:13-73
+817            android:exported="false" />
+817-->[com.paypal.sdk:paypal-android-sdk:2.16.0] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\42daf4a7ea4e0601e4b11b33ae80c6f7\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:25:13-37
+818
+819        <activity
+819-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:12:9-14:63
+820            android:name="co.paystack.android.ui.PinActivity"
+820-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:13:13-62
+821            android:theme="@style/Paystack.Dialog.PinEntry" />
+821-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:14:13-60
+822        <activity
+822-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:15:9-17:63
+823            android:name="co.paystack.android.ui.OtpActivity"
+823-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:16:13-62
+824            android:theme="@style/Paystack.Dialog.OtpEntry" />
+824-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:17:13-60
+825        <activity
+825-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:18:9-20:63
+826            android:name="co.paystack.android.ui.AuthActivity"
+826-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:19:13-63
+827            android:theme="@style/Paystack.Dialog.OtpEntry" />
+827-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:20:13-60
+828        <activity
+828-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:21:9-23:64
+829            android:name="co.paystack.android.ui.CardActivity"
+829-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:22:13-63
+830            android:theme="@style/Paystack.Dialog.CardEntry" />
+830-->[co.paystack.android:paystack:3.0.17] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\6c62ee2c414b66c79f8bcbb7924d7373\jetified-paystack-3.0.17\AndroidManifest.xml:23:13-61
+831        <activity
+831-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:20:9-22:72
+832            android:name="com.gocashfree.cashfreesdk.ui.web_checkout.CFPaymentActivity"
+832-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:21:13-88
+833            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+833-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:22:13-69
+834        <activity
+834-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:23:9-25:66
+835            android:name="com.gocashfree.cashfreesdk.ui.upi.CFUPIPaymentActivity"
+835-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:24:13-82
+836            android:theme="@style/Theme.AppCompat.Translucent" />
+836-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:25:13-63
+837        <activity
+837-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:26:9-28:66
+838            android:name="com.gocashfree.cashfreesdk.ui.amazonpay.AmazonPayActivity"
+838-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:27:13-85
+839            android:theme="@style/Theme.AppCompat.Translucent" />
+839-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:28:13-63
+840        <activity
+840-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:29:9-31:66
+841            android:name="com.gocashfree.cashfreesdk.ui.gpay.GooglePayActivity"
+841-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:30:13-80
+842            android:theme="@style/Theme.AppCompat.Translucent" />
+842-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:31:13-63
+843        <activity
+843-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:32:9-34:66
+844            android:name="com.gocashfree.cashfreesdk.ui.phonepe.CFPhonePayActivity"
+844-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:33:13-84
+845            android:theme="@style/Theme.AppCompat.Translucent" />
+845-->[:cashfreeSDK] G:\2022 all  project\Tunament App\app\app-sourcecode\cashfreeSDK\build\.transforms\35f49f38abe5a718c89ea5efc2b7ae6f\jetified-cashfreeSDK\AndroidManifest.xml:34:13-63
+846        <activity
+846-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:20:9-22:66
+847            android:name="io.card.payment.CardIOActivity"
+847-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:21:13-58
+848            android:configChanges="keyboardHidden|orientation" />
+848-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:22:13-63
+849        <activity android:name="io.card.payment.DataEntryActivity" />
+849-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:9-70
+849-->[io.card:android-sdk:5.5.1] G:\2022 all  project\Tunament App\app\app-sourcecode\caches\transforms-2\files-2.1\a021e68a4cf73f648aab37375c79a36c\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:19-67
+850    </application>
+851
+852</manifest>

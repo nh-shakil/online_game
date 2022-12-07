@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\2022 all  project\\Tunament App\\app\\app-sourcecode\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v27\\values-v27.xml",
+            "map": [
+                {
+                    "source": "G:\\2022 all  project\\Tunament App\\app\\app-sourcecode\\caches\\transforms-2\\files-2.1\\4f55bb837a99c66023acbed0f3a3d56d\\jetified-upisdk-1.5.2\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "612"
+                    }
+                }
+            ]
+        }
+    ]
+}

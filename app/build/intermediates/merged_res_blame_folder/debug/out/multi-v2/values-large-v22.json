@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\2022 all  project\\Tunament App\\app\\app-sourcecode\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v22\\values-large-v22.xml",
+            "map": [
+                {
+                    "source": "G:\\2022 all  project\\Tunament App\\app\\app-sourcecode\\caches\\transforms-2\\files-2.1\\12dc44fd1f763dbebc39eda51959ecfa\\jetified-payu-custom-browser-7.8.0\\res\\values-large-v22\\values-large-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endLines": "2,5",
+                        "endColumns": "92,12",
+                        "endOffsets": "143,310"
+                    }
+                }
+            ]
+        }
+    ]
+}
